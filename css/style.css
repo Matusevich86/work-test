@@ -1,0 +1,668 @@
+
+.header {
+    background-color: #f5720d;
+    clear: both;
+    height: 60px;
+    position: relative;
+}
+ .magnifier {
+    background-image: url(../image/lupa.png);   
+    background-repeat: no-repeat; /*Убираем повтор изображения*/   
+    background-position: 200px; /*Позиционируем*/  
+    background-color: #f5720d;
+    outline: none; /*убираем стандартную обводку браузера*/ border-style: solid;  
+    -moz-border-radius: 6px; /*закругляем углы для Mozilla*/  
+    -webkit-border-radius: 6px; /*закругляем углы для Chrome, Safari*/   
+    border-radius: 6px; /*закругляем углы для остальных браузеров*/
+    border-color: white;
+    border-width: 0.7px;
+    padding: 0px 20px; /*отступ слева от ввода, чтобы текст не был на картинке(выбирать по размеру картинки)*/  
+    height: 30px; /*высота строки ввода*/   
+    font-size: 16px; /*размер шрифта*/
+}
+
+.search {
+    position: absolute;
+    right: 155px;
+    top: 15px;
+}
+.langEng {
+    position: absolute;
+    right: 70px;
+    top: 20px;
+    color: white;
+}
+
+.langRu {
+    position: absolute;
+    right: 110px;
+    top: 0px;
+    color: #0e8cc0;
+    background-image: url(../image/lang.png);
+    width: 36px;
+    height: 55px;
+}
+.langRu p {
+    padding-top: 20px;
+    padding-left: 6px;
+}
+
+.left-meny {
+    width: 170px;
+    float: left;
+}
+
+.left-meny  a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.left-meny li {
+        position: relative;
+        padding: 5px 0px 5px 10px;
+}
+
+.spm1 {
+    position: absolute;
+    top: 10px;
+    padding-left: 10px;
+    text-decoration-line: underline;
+}
+
+.spm2, .spm3, .spm4, .spm5, .spm6 {
+    position: absolute;
+    top: 25px;
+    padding-left: 10px;
+}
+.spm7 {
+    position: absolute;
+    top: 15px;
+    padding-left: 10px;
+}
+.list-meny1::before { 
+     content: url('../image/avatar.png'); 
+}
+.list-meny2::before { 
+     content: url('../image/glove.png'); 
+}
+
+.list-meny3::before { 
+     content: url('../image/knife.png');
+}
+
+.list-meny4::before { 
+     content: url('../image/tent.png');
+}
+
+.list-meny5::before { 
+     content: url('../image/tournament.png');
+}
+
+.list-meny6::before { 
+     content: url('../image/castle.png');
+}
+
+.list-meny7::before { 
+     content: url('../image/book.png');
+}
+#icon::before {
+    content: url('../image/icon.png');
+}
+#icon {
+    position: absolute;
+    top: 30px;
+    color: white;
+}
+
+.logo-img {
+    padding-left: 7px;
+}
+    /* радиокнопки скрыты */
+    input.SRadioFolder
+    {
+        display: none;
+    }
+
+    /* но их метки видны и выстраиваются в линейку */
+    input.SRadioFolder + label
+    {
+        float: left;
+        background-color: #c5dae9;
+        display: block;
+        margin-right: -35px;
+        margin-left: 40px;
+        padding: 0 30px 0 30px;
+        border-radius: 6px 6px 0 0;
+        line-height: 2em;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #617da3;
+    }
+
+    /* самая первая метка - с отступом слева */
+    
+
+    /* метка выбранной радиокнопки - голубой фон */
+    input.SRadioFolder:checked + label
+    {
+        background-color: white;
+    }
+
+    /* все контенты обычно не видны */
+    input.SRadioFolder + label + div
+    {
+        display: none;
+    }
+
+    /* контент выбранной радиокнопки виден */
+    input.SRadioFolder:checked + label + div
+    {
+        display: block;
+        position: absolute;
+        left: 210px;
+        top: 40px;
+        width: calc(100% - 250px);
+        background-color: white;
+        border-radius: 0 6px 6px 6px;
+        padding: 10px;
+    }
+
+.input-vyzov {
+    height: 25px;
+    width: 250px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border: solid 1px lightgrey;
+}
+
+.input-vyzov2 {
+    height: 21px;
+    width: 250px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border-width: 1px;
+    border-style: none;
+    border: solid 1px lightgrey;
+}
+
+.fight {
+    width: 400px;
+    position: absolute;
+    right: 30px;
+    top: 40px;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.fight button {
+    margin: 10px 0 10px 23%;
+    border-radius: 6px;
+    background-color: #808080;
+    padding: 10px 50px;
+    color: white;
+    border-style: none;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+.AllForms {
+    margin: 30px 0 20px 20px;
+}
+
+
+.Result {
+    width: 500px;
+    background-color: #0e8cc0;
+    margin-left: 20px;
+    margin-top: 35px;
+    border-radius: 6px;
+}
+
+.Result p {
+    padding: 10px 10px;
+    color: white;
+}
+
+.Result span {
+    color: #0e8cc0;
+    border-radius: 14px;
+    background-color: white;
+    padding: 4px 4px 4px 4px;
+}
+
+.container {
+    background: url("../image/bgColor.png")left top repeat-y;
+    background-color: #e7e9eb;
+    position: relative;
+    height: 900px;
+}
+
+.pictureVyz {
+    float: left;
+}
+
+.listen {
+    height: 200px;
+    width: 480px;
+    float: left;
+    margin: 50px 0px 0px 20px;
+    border: solid 2px lightgrey;
+    border-radius: 6px;
+    background-color: #f1f8f1;
+    position: relative;
+}
+
+.look {
+    height: 200px;
+    width: 480px;
+    float: left;
+    margin: 50px 0px 0px 20px;
+    border: solid 2px lightgrey;
+    border-radius: 6px;
+    background-color: #eff6fb;
+    position: relative;
+}
+
+.read {
+    height: 200px;
+    width: 480px;
+    float: left;
+    margin: 50px 0px 50px 20px;
+    border: solid 2px lightgrey;
+    border-radius: 6px;
+    background-color: #fcf7f4;
+    position: relative;
+}
+
+.visit {
+    height: 200px;
+    width: 480px;
+    float: left;
+    margin: 50px 0px 50px 20px;
+    border: solid 2px lightgrey;
+    border-radius: 6px;
+    background-color: #f7f4f8;
+    position: relative;
+}
+
+.learn1 {
+    font-weight: bold;
+    padding: 5px 5px 5px 160px;
+}
+
+.learn2 {
+        padding-left: 160px;
+}
+
+.learn3 {
+    padding: 50px 0 0 160px;
+}
+
+.learn4 {
+    padding-left: 160px;
+}
+
+.learn5 {
+    padding-left: 160px;
+}
+
+.listenButt {
+    width: 45px;
+    height: 45px;
+    right: 20px;
+    border-radius:  6px;
+    border-style: solid;
+    background-color: #55974d;
+    border-color:  #55974d;
+}
+
+.buttonListen, 
+.buttonLook, 
+.buttonRead, 
+.buttonVisit {
+    position:  absolute;
+    right: 20px;
+    bottom: 10px;
+}
+
+.lookButt {
+    width: 45px;
+    height: 45px;
+    right: 20px;
+    border-radius:  6px;
+    border-style: solid;
+    background-color: #508bbd;
+    border-color:  #508bbd;
+}
+
+.readButt {
+    width: 45px;
+    height: 45px;
+    right: 20px;
+    border-radius:  6px;
+    border-style: solid;
+    background-color: #d9701f;
+    border-color:  #d9701f;
+}
+
+.visitButt {
+   width: 45px;
+    height: 45px;
+    right: 20px;
+    border-radius:  6px;
+    border-style: solid;
+    background-color: #774788;
+    border-color:  #774788; 
+}
+li.active {
+    background-color: #e7e9eb;
+    margin-left: 5px;
+    border-radius:  6px 0 0 6px;
+}
+
+li.active a.list-meny2 {
+    color: #508bbd;
+    font-weight:  bold;
+}
+.arrowListen {
+    position: absolute;
+    top: 10px;
+    background-color: #55974d;
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
+
+.arrowListen::after {
+    content: ''; 
+    position: absolute;
+    border: 9.5px solid transparent;
+    border-left: 15px solid #55974d;
+   }
+
+.vyzLink {
+    text-decoration: none;
+    color: white;
+}
+
+.arrowLook {
+    position: absolute;
+    top: 10px;
+    background-color: #508bbd;
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
+
+.arrowLook::after {
+    content: ''; 
+    position: absolute;
+    border: 9.5px solid transparent;
+    border-left: 15px solid #508bbd;
+   }
+
+.arrowRead {
+    position: absolute;
+    top: 10px;
+    background-color: #d9701f;
+    padding-bottom: 3px;
+    padding-left: 15px;
+}
+
+.arrowRead::after {
+    content: ''; 
+    position: absolute;
+    border: 9.5px solid transparent;
+    border-left: 15px solid #d9701f;
+   }
+
+.arrowVisit {
+    position: absolute;
+    top: 10px;
+    background-color: #774788;
+    padding-bottom: 3px;
+    padding-left: 25px;
+}
+
+.arrowVisit::after {
+    content: ''; 
+    position: absolute;
+    border: 9.5px solid transparent;
+    border-left: 15px solid #774788;
+   }
+
+.saveVyzBut {
+    height: 40px;
+    width: 200px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #508bbd;
+    color: white;
+    font-size: 16px;
+    margin: 0 50px 50px 180px;
+    cursor: pointer;
+}
+
+.DelVyz {
+    color: #508bbd;
+}
+
+.saveVyzBut:hover {
+    background-color: #55974d;
+}
+
+.DelVyz:hover {
+    color: #55974d;
+}
+
+.fight button:hover {
+    background-color: #55974d;
+}
+
+.learn3 a {
+    color: #508bbd;
+}
+
+.saveVyz {
+    clear: both;
+}
+.nameVyz {
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.nameVyz input {
+    border-radius: 6px;
+    width: 80%;
+    padding-left: 20px;
+    margin-left: 20px;
+    height: 30px;
+    border-style: none;
+    border: solid 2px lightgrey
+}
+
+.typeVyz {
+    margin-left: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.typeVyz select {
+    margin-left: 15px;
+    border-radius: 6px;
+    width: 250px;
+    height: 33px;
+    padding-left: 10px;
+    border: solid 2px lightgrey;
+}
+
+.typeVyz img {
+    margin-bottom: -5px;
+}
+
+.statVyz {
+    float: right;
+    margin-top: -33px;
+    font-weight: bold;
+}
+
+.statVyz select {
+    width: 250px;
+    height: 33px;
+    padding-left: 10px;
+    border-radius: 6px;
+    margin-right: 33px;
+    border: solid 2px lightgrey;
+}
+
+.statVyz img {
+    margin-bottom: -5px;
+}
+
+.categor li {
+    list-style-image: url('../image/marker.png');
+}
+
+.categor {
+    margin: 10px 0 0 47px;
+}
+
+.categor ul {
+    margin-top: -16px;
+    margin-left: 134px;
+}
+
+.categor img {
+    margin-bottom: -5px;
+}
+
+.catZag {
+    font-weight: bold;
+}
+
+.categor a {
+    color: #508bbd;
+    margin-left: 120px;
+}
+
+.plus1 {
+    background-color: #508bbd;
+    padding: 3px 5px 5px 5px;
+    border-radius: 15px;
+}
+
+.categor li:last-child {
+    padding-bottom: 15px;
+}
+
+.plus3:hover {
+    color: #55974d;
+}
+
+.plus1:hover {
+    background-color: #55974d;
+}
+.dostupn {
+    float: right;
+    margin-top: -75px;
+    margin-right: 30px;
+}
+
+.dostupn img {
+    margin-bottom: -5px;
+}
+
+.dostupn3 {
+    padding-left: 0px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.dostupn2 {
+    height: 30px;
+    width: 100px;
+    border: solid 2px lightgray;
+    border-radius: 6px;
+}
+
+.dostupn1 {
+    font-weight: bold;
+}
+
+.instruc {
+    margin-top: 60px;
+}
+
+.instruc2 {
+    width: 150px;
+    text-align: right;
+    float: left;
+    font-weight: bold;
+    margin-left: -12px;
+}
+
+.instruc2 img {
+    margin-left: 1px;
+    float: left;
+}
+
+.instrOut {
+    height: 100px;
+    border: solid 2px lightgray;
+    width: 80%;
+    margin-left: 165px;
+    border-radius: 6px;
+    margin-top: -30px;
+}
+
+.answr {
+    margin-top: 50px;
+    margin-left: -5px;
+    display: -webkit-box
+}
+
+.answ0 {
+    width: 150px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.showAnsw {
+    display: -webkit-inline-box;
+    float: right;
+    margin-top: -114px;
+    margin-right: 40px;
+}
+
+.showAnsw1 {
+    width: 150px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.saveVyzBut1 {
+    height: 40px;
+    width: 200px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #508bbd;
+    color: white;
+    font-size: 16px;
+    margin: 50px 50px 50px 180px;
+    cursor: pointer;
+}
+
+.showAnsv4 {
+    padding-left: 25px;
+}
+
+.saveVyzBut1:hover {
+    background-color: #55974d;
+}
+
+.instrOut1 {
+    margin: 5px 5px;
+}
