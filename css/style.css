@@ -237,7 +237,7 @@
     background: url("../image/bgColor.png")left top repeat-y;
     background-color: #e7e9eb;
     position: relative;
-    height: 900px;
+    height: 1300px;
 }
 
 .pictureVyz {
@@ -586,6 +586,9 @@ li.active a.list-meny2 {
     width: 100px;
     border: solid 2px lightgray;
     border-radius: 6px;
+    background-image: url(../image/date.png);
+    background-position: 75px;
+    background-repeat: no-repeat;
 }
 
 .dostupn1 {
@@ -621,7 +624,9 @@ li.active a.list-meny2 {
 .answr {
     margin-top: 50px;
     margin-left: -5px;
-    display: -webkit-box;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-wrap: wrap
 }
 
 .answ0 {
@@ -632,9 +637,6 @@ li.active a.list-meny2 {
 
 .showAnsw {
     display: -webkit-inline-box;
-    float: right;
-    margin-top: -114px;
-    margin-right: 40px;
 }
 
 .showAnsw1 {
@@ -665,4 +667,197 @@ li.active a.list-meny2 {
 
 .instrOut1 {
     margin: 5px 5px;
+}
+
+.link_to_video {
+    margin-top: 60px;
+}
+
+.link_to_video1 {
+    width: 150px;
+    text-align: right;
+    float: left;
+    font-weight: bold;
+    margin-left: -12px;
+}
+
+.linkOut {
+    height: 30px;
+    border: solid 2px lightgray;
+    width: 80%;
+    margin-left: 165px;
+    border-radius: 6px;
+    margin-top: -30px;
+}
+
+.linkOut1 {
+    margin: 5px 5px;
+}
+
+.name_meet {
+    margin-top: 60px;
+}
+
+.name_meet1 {
+    width: 150px;
+    text-align: right;
+    float: left;
+    font-weight: bold;
+    margin-left: -12px;
+    margin-top: -6px;
+}
+
+.meetOut {
+    height: 30px;
+    border: solid 2px lightgray;
+    width: 80%;
+    margin-left: 165px;
+    border-radius: 6px;
+    margin-top: -30px;
+}
+
+
+
+.meetOut1 {
+    margin: 5px 5px;
+    color: #508bbd;
+}
+
+.location {
+    margin-top: 60px;
+}
+
+.location1 {
+    width: 120px;
+    text-align: right;
+    float: left;
+    font-weight: bold;
+    margin-left: 17px;
+    margin-top: -6px;
+}
+
+.locOut {
+    height: 30px;
+    border: solid 2px lightgray;
+    width: 80%;
+    margin-left: 165px;
+    border-radius: 6px;
+    margin-top: -30px;
+}
+
+.locOut1 {
+    margin: 5px 5px;
+}
+
+.answ3 {
+    padding-right: 40px;
+}
+
+.time {
+    margin-top: 60px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.time_start2 {
+    height: 30px;
+    width: 100px;
+    border: solid 2px lightgray;
+    border-radius: 6px
+}
+
+.time_name {
+    width: 130px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.time_start {
+    margin-left: 35px;
+}
+
+.time_finish {
+    margin-left: 35px;
+}
+
+
+
+.listAutor {
+    margin-top: 60px;
+    display: inline-flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.listAutor1 {
+    width: 140px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.listAutor img {
+        margin-top: 10px;
+}
+
+.listAutor textarea {
+    margin: 0px;
+    border: 2px solid lightgrey;
+    border-radius: 6px;
+    height: 145px;
+    width: 705px;
+}
+
+
+.callContentGorn {
+    margin-left: 50px;
+    border-radius: 150px;
+    float: left;
+}
+
+.captionCall {
+    padding-left: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #508bbd
+}
+
+.callContentName {
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 5px;
+    line-height: 25px;
+    border-radius: 6px;
+}
+
+.callContentName1 {
+    float: left;
+    padding-right: 30px;
+    padding-left: 5px;
+}
+
+.callContentName1 img {
+    margin-bottom: -2px;
+}
+
+.callContentName2 img {
+    margin-bottom: -2px;
+}
+
+.instruction {
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.instruction ol {
+    list-style: decimal;
+    margin-left: 20px;
+    margin-top: 5px;
+    line-height: 20px;
+}
+
+.audio {
+        margin: 20px 0 0 200px;
 }

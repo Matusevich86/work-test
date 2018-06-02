@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- 
   <div class="header">      
        <div class="logo">
           <img class="logo-img" src="image/logo.png"> 
@@ -22,7 +21,7 @@
        <div class="langEng">
            <p>Eng</p>
        </div>
-   </div>
+     </div>
    <div class="container">
        <div class="left-meny">
            <ul>
@@ -34,6 +33,7 @@
                <li><a class="list-meny6" href="#"><span class="spm6">Мой замок</span></a></li>
                <li><a class="list-meny7" href="#"><span class="spm7">Кодекс рыцаря</span></a></li>
            </ul>
+           <div style='clear: both'></div>
        </div>
        
            <div style='position: relative'>
@@ -163,6 +163,43 @@
                    <img src="image/vopros.png" alt="подсказка">
                    <div class="instrOut"><div class="instrOut1">Урок по постановке целей...бла бла бла</div>
                </div>
+               <div class="link_to_video">
+                   <div class="link_to_video1">Ссылка на видео</div>
+                   <img src="image/vopros.png" alt="подсказка">
+                   <div class="linkOut"><div class="linkOut1">https://</div>
+                   </div></div>
+               <div class="name_meet">
+                   <div class="name_meet1">Название мероприятия</div>
+                   <img src="image/vopros.png" alt="подсказка">
+                   <div class="meetOut"><div class="meetOut1">Семинар по постановке целей</div></div>
+               </div>
+               <div class="location">
+                   <div class="location1">Место проведения</div>
+                   <img src="image/vopros.png" alt="подсказка">
+                   <div class="locOut">
+                   <div class="locOut1">Место</div></div>
+               </div>
+               <div class="time">
+                  <div class="time_name">
+                      Время проведения
+                  </div>
+                   <div class="time_start">
+                       <form class="time_start1" action="#">
+                         старт <input class="dostupn2" type=date>  <input class="time_start2" type=time>
+                       </form>
+                   </div>
+                   <div class="time_finish">
+                       <form class="time_start1" action="#">
+                         финиш <input class="dostupn2" type=date>  <input class="time_start2" type=time>
+                       </form>
+                   </div>
+               </div>
+               <div class="listAutor">  
+                      <div class="listAutor1">Перечислите организаторов </div><img src="image/vopros.png" alt="подсказка">
+                    <form action='#'>
+                       <textarea name="enterAut" id="" cols="30" rows="10"></textarea>
+                    </form>
+                </div>
                <div class="answr">
                        <div class="answ0">Что принимать в качестве ответа<br> на задание?</div>
                        <img src="image/vopros.png" alt="подсказка">
@@ -176,8 +213,7 @@
                            <input type="checkbox">Загрузить файлы<br>
                        </form>
                    </div>
-               </div>
-               <div class="showAnsw">
+                   <div class="showAnsw">
                    <div class="showAnsw1">Кому показывать ответы на странице задания?</div>
                    <img src="image/vopros.png" alt="подсказка">
                    <div class="showAnsv3">
@@ -188,23 +224,57 @@
                            <input type="radio" name='answer' value=4>Только мне и всем, кто прислал<br><span class="showAnsv4"> ответ</span>
                        </form>
                    </div> 
-            </div>
+               </div>
+               </div>
+               
               <div class="saveVyz">
                         <span><button class="saveVyzBut1">Сохранить вызов</button><a class="DelVyz" href="#">Отменить</a></span>
                    </div>
                </div>
+               <div style='clear: both'></div>
            </div>
            <input type=radio name=FOLDER id=FOLDER3 class='SRadioFolder'>
            <label for=FOLDER3>Содержание вызова</label>
            <div class='SFolderDiv'>
-                Гляжу &mdash; поднимается медленно в гору<br />
-                лошадка, везущая хворосту воз.<br />
-                 И шествуя рядом, в спокойствии чинном,<br />
-                Лошадку ведёт под уздцы мужичок.
-            </div>  
+                <div class="callContent1">
+                    <img src="image/gorn1.png" class="callContentGorn" alt="Горн">
+                    <p class="captionCall">Урок по суперправильной постановке целей</p>
+                    <div class="callContentName">
+                        <div class="callContentName1">
+                            <p><img src="image/Learn3.png" alt="значок">Автор<a href="#">Елена Локтева</a></p>
+                            <p><img src="image/Learn4.png" alt="значек">Доступно без ограничений</p>
+                        </div>
+                        <div class="callContentName2">
+                            <p>Сложность <img src="image/star2.png" alt="сложность"></p>
+                            <p><img src="image/Learn5.png" alt="значек">Информационные технологии</p>
+                        </div>
+                      </div>
+                        <div class="instruction">
+                           <p>Инструкция:</p>
+                            <ol>
+                                <li>Изучите аудиофайл</li>
+                                <li>заполните форму с расширением</li>
+                                <li>Сохраните результат</li>
+                            </ol>
+                        </div>
+                        <div class="audio">
+                            <audio preload controls loop>
+                               <source src="http://htmlbook.ru/example/audio/music.ogg" type="audio/ogg; codecs=vorbis">
+                              <source src="http://htmlbook.ru/example/audio/music.mp3" type="audio/mpeg">
+                              Воспроизведение аудио не поддерживается вашим браузером.
+                              <a href="http://htmlbook.ru/example/audio/music.mp3">Скачайте музыку</a>.
+                            </audio>
+                        </div>
+                        <div class="saveVyz">
+                        <span><button class="saveVyzBut1">Принять вызов</button><a class="DelVyz" href="#">Вернуться</a></span>
+                   </div>
+                    
+                </div>
+            </div>
+            <div style='clear: both'></div>  
         </div>
-        
        <div style='clear: both'></div>
    </div>
+   <div class="futer"></div>
 </body>
 </html>
