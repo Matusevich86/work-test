@@ -1038,6 +1038,7 @@ input.SRadioFolder + label a {
 
 /* Подвиги синие*/
 
+
 .podviglisten1 {
     width: auto;
     margin: 50px 0px 0px 20px;
@@ -1048,6 +1049,7 @@ input.SRadioFolder + label a {
     display: flex;
     flex-wrap: wrap;
 }
+
 /* подвиги ораньжевые*/
 .podviglisten2 {
     width: auto;
