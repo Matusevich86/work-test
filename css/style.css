@@ -26,6 +26,14 @@
     right: 155px;
     top: 15px;
 }
+.langRu a {
+    text-decoration: none;
+}
+
+.langEng a {
+    text-decoration: none;
+}
+
 .langEng {
     position: absolute;
     right: 70px;
@@ -33,18 +41,23 @@
     color: white;
 }
 
+.langEng p {
+    color: white;
+}
+
 .langRu {
     position: absolute;
     right: 110px;
     top: 0px;
-    color: #0e8cc0;
     background-image: url(../image/lang.png);
     width: 36px;
     height: 55px;
+    color:#508bbd;
 }
 .langRu p {
     padding-top: 20px;
     padding-left: 6px;
+    color:#508bbd;
 }
 
 .left-meny {
@@ -237,7 +250,7 @@
     background: url("../image/bgColor.png")left top repeat-y;
     background-color: #e7e9eb;
     position: relative;
-    height: 1300px;
+    height: 2000px;
 }
 
 .pictureVyz {
@@ -860,4 +873,223 @@ li.active a.list-meny2 {
 
 .audio {
         margin: 20px 0 0 200px;
+}
+
+.instruction p {
+    font-weight: bold;
+}
+
+.description {
+    margin-left: 200px;
+    line-height: 20px;
+}
+
+.description p:first-child {
+    margin-top: 20px;
+}
+
+.description img {
+    margin-bottom: -5px;
+}
+
+.organizator {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.organizator p {
+    font-weight: bold;
+}
+
+.organizator ul {
+    list-style: inherit;
+    margin-left: 20px
+}
+
+.locIframe {
+    margin: 20px 0 0 200px;
+}
+
+.description p:nth-child(2) {
+    padding-left: 2px;
+}
+
+.locIframe iframe {
+    border-radius: 6px;
+}
+
+.callContentName1 a {
+        color: #508bbd;
+}
+
+.text {
+    margin: 20px 0 0 200px;
+}
+
+.text p {
+    font-weight: bold
+}
+
+.text2 {
+    margin: 20px 0 0 200px;
+}
+
+.bigtext img {
+        float: left;
+    padding-right: 20px;
+}
+
+.bigtext {
+    margin-top: 10px;
+    background-color: lightgray;
+    border-radius: 6px;
+    min-height: 190px;
+    border: solid 2px lightgray;
+}
+
+.text2 p:first-child {
+    font-weight: bold;
+}
+
+.bigtext1 {
+    padding-top: 25px;
+}
+
+.bigtext p:last-child {
+    padding-top: 60px;
+}
+
+.bigtext a {
+    color: #508bbd;
+}
+
+.radioPodvig {
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+#AllFormsPod {
+    float: left;
+    margin-right: 40px;
+}
+
+#PodResult {
+       width: auto;
+}
+
+/*Подвиги-зеленые*/
+
+.podviglisten {
+    width: auto;
+    margin: 50px 0px 0px 20px;
+    border: solid 2px lightgrey;
+    border-radius: 6px;
+    background-color: #f1f8f1;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pictureVyz1 {
+        height: 120px;
+}
+
+.podvigLearn {
+    margin: 20px 0 0 -130px;
+    width: 550px;
+}
+
+.podvigLearn1 {
+    padding-top: 23px;
+}
+
+.buttonListen1 {
+    position: absolute;
+    right: 30px;
+    bottom: 35px;
+}
+
+.winnerButt {
+    background-color: transparent;
+    border: none;
+}
+
+/* End подвиги зеленые*/
+.langEng:hover {
+    position: absolute;
+    right: 70px;
+    top: 0px;
+    background-image: url(../image/lang.png);
+    width: 36px;
+    height: 55px
+}
+
+.langEng p:hover {
+    padding-top: 20px;
+    padding-left: 6px;
+    color:#508bbd;
+}
+
+input.SRadioFolder + label a {
+    text-decoration: none;
+    color: #617da3;
+}
+
+
+/* Подвиги синие*/
+
+.podviglisten1 {
+    width: auto;
+    margin: 50px 0px 0px 20px;
+    border: solid 2px lightgrey;
+    border-radius: 6px;
+    background-color: #eff6fb;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* подвиги ораньжевые*/
+.podviglisten2 {
+    width: auto;
+    margin: 50px 0px 0px 20px;
+    border: solid 2px lightgrey;
+    border-radius: 6px;
+    background-color: #fcf7f4;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*Подвиги фиолетовые*/
+.podviglisten3 {
+    width: auto;
+    margin: 50px 0px 0px 20px;
+    border: solid 2px lightgrey;
+    border-radius: 6px;
+    background-color: #f7f4f8;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.allPodvigImg {
+    margin-left: 25px;
+    width: 700px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.allPodvigImg img {
+    margin: 20px;
+    border-radius: 150px;
+    float: none;
+}
+
+.rasporka {
+    height: 40px;
+    background-color: #e7e9eb;
+    margin-top: 50px;
+    margin-left: -10px;
+    margin-right: -10px;
 }
